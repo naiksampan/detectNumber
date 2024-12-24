@@ -3,7 +3,7 @@
 **DetectNumber** is a tool that detects and crops license plates from images, aligns tilted plates, and performs recognition of alphanumeric characters (36 classes: 0-9, A-Z) from the detected data.  
 
 ![License Plate Detection Demo](image.png)
-![](image1.png)
+
 
 ## Features  
 
@@ -32,18 +32,6 @@
    pip install -r requirements.txt  
    ```  
 
-3. **Run Detection and Cropping**:  
-   Add your images to the `input/` directory and execute the script:  
-   ```bash  
-   python detect_and_crop.py  
-   ```  
-
-4. **Character Recognition**:  
-   Use the recognition script to classify characters:  
-   ```bash  
-   python recognize_characters.py  
-   ```  
-
 ## File Structure  
 
 ```
@@ -53,9 +41,7 @@ detectnumber/
 ├── output/                    # Directory for cropped license plates  
 ├── models/                    # Pre-trained model for character recognition  
 │   ├── license_recognition.pkl  
-│  
-├── detect_and_crop.py         # Script for detection and cropping  
-├── recognize_characters.py    # Script for character recognition  
+├── recognize_characters.ipynb    # Script for character recognition  
 ├── requirements.txt           # List of dependencies  
 ├── README.md                  # Project documentation  
 └── LICENSE                    # License information  
@@ -64,7 +50,8 @@ detectnumber/
 ## Results  
 
 - Cropped license plates are saved in the `output/` directory.  
-- Recognized characters are displayed on the terminal or saved in a file.  
+- Recognized characters are displayed on the terminal or saved in a file.
+![](image1.png)
 
 ## Dependencies  
 
