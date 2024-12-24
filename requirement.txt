@@ -1,0 +1,8 @@
+numpy==1.23.5
+opencv-python==4.8.0.76
+matplotlib==3.7.1
+tensorflow==2.13.0   # Or pytorch==2.0.1 based on the recognition model
+torchvision==0.15.2  # If using PyTorch
+scikit-learn==1.2.2
+Pillow==9.4.0
+tqdm==4.66.1
