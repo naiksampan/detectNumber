@@ -2,7 +2,8 @@
 
 **DetectNumber** is a tool that detects and crops license plates from images, aligns tilted plates, and performs recognition of alphanumeric characters (36 classes: 0-9, A-Z) from the detected data.  
 
-![License Plate Detection Demo](https://via.placeholder.com/800x400?text=Add+Your+Image+Here)  
+![License Plate Detection Demo](image.png)
+![](image1.png)
 
 ## Features  
 
